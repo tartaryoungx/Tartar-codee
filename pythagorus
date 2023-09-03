@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<ctype.h>
+main(){
+    char a;
+    scanf('%c',&a);
+    if(isupper(a)){
+        printf("All Capital Letter");
+    }
+    else if(a>='a'&&a<='z'){
+        printf("All Small Letter");
+    }
+    else{printf("Mix");}
+    printf('%c',a);
+
+}
+
+
